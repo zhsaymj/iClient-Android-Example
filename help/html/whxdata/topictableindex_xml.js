@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"使用iClient for Android入门\" to=\"x\" num=\"37\"/></cki>";

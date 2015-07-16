@@ -1,0 +1,205 @@
+﻿<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="bsscright">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="产品概述">
+    <param name="Local" value="ProductIntroduce/welcome.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="法律声明">
+      <param name="Local" value="ProductIntroduce/license.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="目录结构说明">
+      <param name="Local" value="ProductIntroduce/contents.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="接口变更">
+      <param name="Local" value="ProductIntroduce/what_s_new.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="SuperMap iClient 7C 介绍">
+      <param name="Local" value="ProductIntroduce/for7CIntroduce.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="SuperMap iClient 7C for Android 介绍">
+      <param name="Local" value="ProductIntroduce/forAndroidIntroduce.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="产品入门">
+    <param name="Local" value="GettingStarted/Android_getingstart.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="开发环境要求">
+      <param name="Local" value="GettingStarted/PrepareDevelopmentEnvironment.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="使用MBTiles离线数据包说明">
+      <param name="Local" value="GettingStarted/usembtiles.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="开发入门">
+      <param name="Local" value="GettingStarted/firststep_congig_eclipse.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第一步 配置Eclipse">
+        <param name="Local" value="GettingStarted/firststep_congig_eclipse.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第二步 创建工程">
+        <param name="Local" value="GettingStarted/secondstep_buildproject.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第三步 添加依赖库">
+        <param name="Local" value="GettingStarted/thirdstep_add_lib_dependencies.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第四步 代码实现">
+        <param name="Local" value="GettingStarted/forthstep_codetoachieve.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第五步 编译并运行">
+        <param name="Local" value="GettingStarted/fifthstep_compileandrun.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="开发指南">
+    <param name="Local" value="DevelopGuide/DevelopGuide.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="地图图层">
+      <param name="Local" value="DevelopGuide/mapView.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="地图固定比例尺">
+      <param name="Local" value="DevelopGuide/map_Scale.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="地图查询">
+      <param name="Local" value="DevelopGuide/query.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="地图量算">
+      <param name="Local" value="DevelopGuide/measure.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="文本标注与地物标绘">
+      <param name="Local" value="DevelopGuide/overlay.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="专题图图层">
+      <param name="Local" value="DevelopGuide/theme.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="数据集编辑">
+      <param name="Local" value="DevelopGuide/dataedit.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="数据集查询">
+      <param name="Local" value="DevelopGuide/dataquery.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="空间分析">
+      <param name="Local" value="DevelopGuide/spatialanalyst.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="交通换乘分析">
+      <param name="Local" value="DevelopGuide/traffictransferanalyst.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="交通网络分析">
+      <param name="Local" value="DevelopGuide/networkanalyst.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="示范程序说明">
+      <param name="Local" value="DevelopGuide/samplecodeUsage.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="地图模块示范程序说明">
+        <param name="Local" value="DevelopGuide/map_samplecodeUsage.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="地图查询模块示范程序说明">
+        <param name="Local" value="DevelopGuide/mapQueryIntro.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="数据模块示范程序说明">
+        <param name="Local" value="DevelopGuide/data_samplecodeUsage.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="专题图模块示范程序说明">
+        <param name="Local" value="DevelopGuide/theme_samplecodeUsage.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="空间分析示范程序说明">
+        <param name="Local" value="DevelopGuide/spatialanalyst_samplecodeUsage.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="交通换乘与交通网络分析示范程序说明">
+        <param name="Local" value="DevelopGuide/trafficanalyst_samplecodeUsage.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="第三方地图模块示范程序说明">
+        <param name="Local" value="DevelopGuide/map_thirdpartLayer.htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="文档附录">
+    <param name="Local" value="Appendix.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="技术支持服务">
+      <param name="Local" value="Contactsupport.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="iClient for Android JavaDoc">
+  </object>
+  <ul>
+    <object type="text/sitemap">
+      <param name="Name" value="forAndroidJavaDoc">
+      <param name="Merge" value="forAndroidJavaDoc">
+    </object>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <project homepage=\"ProductIntroduce/welcome.htm\" langid=\"2052\" datapath=\"whxdata\" toc=\"whtoc.xml\" index=\"whidx.xml\" fts=\"whfts.xml\" glossary=\"whglo.xml\" brs=\"whbrs.xml\" >  <remote url=\"mergedProjects/forAndroidJavaDoc\" />    </project>";

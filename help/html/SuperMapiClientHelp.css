@@ -1,0 +1,846 @@
+﻿/*Created with Adobe RoboHelp 8.*/
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif, 宋体, 微软雅黑;
+	font-size: 75%;
+	width: 98%;
+	margin-left: 2%;
+}
+a,
+a:link {
+	color: #408080;
+	cursor: pointer;
+	text-decoration: underline;
+}
+a:visited {
+	color: #408080;
+}
+a:hover {
+	color: #0909FF;
+}
+.jumplist {
+	margin-left: -17pt;
+	font-size: 10pt;
+	margin-top: 10pt;
+	margin-bottom: 8pt;
+}
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+P.HeadGraphic {
+	margin-bottom: 15pt;
+	margin-left: -16pt;
+	margin-top: -12pt;
+	margin-right: -25pt;
+}
+p.pssTitle {
+	color: #000080;
+	font-weight: bold;
+}
+p.pssPageTitle {
+	font-size: 130%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+h1,
+h2,
+h3 {
+	font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif, 宋体;
+	margin-bottom: .5em;
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+h1 {
+	margin-top: .4em;
+	margin-bottom: .5em;
+	x-next-class: ;
+	x-next-type: p;
+	font-size: 200%;
+}
+h2 {
+	font-size: 130%;
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+h3 {
+	font-size: 110%;
+	margin-left: 9pt;
+	margin-top: 1.2em;
+	margin-bottom: .5em;
+	x-next-class: myNormal;
+	x-next-type: p;
+}
+table.dtTable {
+	width: 95%;
+	margin-top: .6em;
+	margin-bottom: 1em;
+	border-width: 1px 1px 0px 0px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.dtTable tHead {
+	background: #cccccc;
+	font-weight: bold;
+	padding: 4px 6px;
+	text-align: left;
+}
+table.dtTABLE th,
+table.dtTable td {
+	border-style: solid;
+	border-width: 0px 0px 1px 1px;
+	border-style: solid;
+	border-color: #999999;
+	padding: 4px 6px;
+	text-align: left;
+	vertical-align: top;
+}
+table.dtTABLE th {
+	background: #cccccc;
+	vertical-align: bottom;
+}
+table.dtTABLE td {
+	vertical-align: top;
+}
+table.cmTable {
+	margin-top: .6em;
+	margin-bottom: 1em;
+	border-width: 1px 1px 0px 0px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.cmTable td,
+table.cmTable th {
+	border-style: solid;
+	border-width: 0px 0px 1px 1px;
+	border-style: solid;
+	border-color: #999999;
+	padding: 4px 6px;
+	text-align: left;
+}
+table.cmTable tHead {
+	background: #cccccc;
+	font-weight: bold;
+	padding: 4px 6px;
+	text-align: left;
+}
+table.cmTable td.ColTitle {
+	font-weight: bold;
+}
+table.cmTable td.ColumnTitle {
+	font-weight: bold;
+}
+div.syntax {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.code,
+div.syntax {
+	color: #2B2B2B;
+	font-family: Tahoma, 宋体;
+	font-size: 110%;
+	width: 95%;
+}
+div.notes {
+	background-color: #F4F4FF;
+}
+div.expandall {
+	right: 20pt;
+	position: absolute;
+	top: 39pt;
+	height: 20pt;
+}
+div.TabOverlay {
+	position: absolute;
+	left: 11pt;
+	top: 40pt;
+	width: 700pt;
+	color: #ffffff;
+}
+/* .pgImage {
+	width: auto;
+	position: relative;
+	left: 0px;
+	padding: inherit;
+	border-bottom: 1px solid #999999;
+	background-image: url(TitleBackground.bmp);
+	color: #2D5493;
+	height: 70px;
+	margin-left: -20px;
+	margin-top: -15px;
+} */
+.contents {
+	background: #ffffff;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif, 宋体, 微软雅黑;
+	/*font-size: 75%;*/
+	width: 98%;
+	margin-left: 2%;
+}
+.hd1 {
+	position: absolute;
+	height: 35%;
+	font-size: 120%;
+	font-family: Cambria, 宋体;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-left: 170px;
+	width: 700px;
+	height: 70px;
+}
+.hd2 {
+	position: absolute;
+	font-size: 130%;
+	font-family: Cambria, Verdana, 宋体;
+	color: #2D5493;
+	height: 45%;
+	margin-top: 12px;
+	margin-left: 170px;
+	width: 700px;
+	height: 70px;
+}
+DIV.hd3 {
+	font-weight: bold;
+	position: absolute;
+	font-size: 100%;
+	color: #ffffff;
+	left: 35pt;
+	top: 4pt;
+	width: 700pt;
+	height: 70pt;
+}
+.expanded {
+	font-weight: normal;
+}
+.collapsed {
+	display: none;
+}
+ol {
+	font-size: 100%;
+	margin-top: .5em;
+	margin-bottom: 0em;
+}
+ul {
+	font-size: 100%;
+	margin-top: .5em;
+	margin-bottom: 0em;
+}
+ol ul {
+	list-style: disc;
+	margin-top: .5em;
+}
+ul ul {
+	list-style: disc;
+	margin-top: .5em;
+}
+li {
+	margin-bottom: .7em;
+	margin-left: -2em;
+}
+.subpara {
+	margin-left: 18pt;
+}
+.subsubpara {
+	margin-left: 36pt;
+}
+.usubpara {
+	margin-left: 4pt;
+}
+li.referenceList {
+	margin-left: 0.25em;
+	list-style: url(blue_glass.jpg);
+}
+p.crumbString {
+	text-indent: 0in;
+	margin-left: 0pt;
+}
+p.breadcrumbs {
+	margin-left: 0pt;
+}
+p.myNormal {
+	margin-bottom: 5px;
+	x-next-class: myNormal;
+	x-next-type: p;
+	text-indent: 0.25in;
+	line-height: 20px;
+	margin-left: 0pt;
+	margin-top: 5px;
+}
+li.SymbolList1 {
+	list-style: disc;
+	margin-left: 0;
+}
+p.myCodeP {
+	margin-left: 18pt;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	x-next-class: myCodeP;
+	x-next-type: p;
+	background-color: #D2E9FF;
+	margin-right: 18pt;
+}
+li.CommonList {
+	list-style: disc;
+	margin-left: 0.25em;
+	font-weight: bold;
+}
+P.Preformatted-code {
+	line-height: normal;
+	x-text-tab-stops: repeat 1in;
+	white-space: nowrap;
+	padding: 4px 6px 4px 0px;
+	background-color: #F4F4FF;
+	width: 95%;
+	font-size: 110%;
+	font-family: Tahoma, 宋体;
+	color: #2B2B2B;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+P.Preformatted {
+	line-height: normal;
+	x-text-tab-stops: repeat 1in;
+	white-space: nowrap;
+	width: 95%;
+	font-size: 110%;
+	font-family: Tahoma, 宋体;
+	color: #2B2B2B;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+SPAN.Code {
+	font-size: 100%;
+	font-family: Tahoma, "Time New Roman", "Courier New", 宋体, Courier, monospace;
+	color: #006600;
+}
+pre SPAN.Bold {
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+code SPAN.Bold {
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+H4 {
+	font-weight: bold;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	margin-left: 18pt;
+	x-next-class: ;
+	x-next-type: p;
+	font-size: 100%;
+}
+p.uriStyle {
+	margin-left: 60px;
+}
+li.ListInParagraph {
+	list-style: decimal;
+	margin-left: 0em;
+}
+table.iServerTable {
+	padding: 0px;
+	border-top: Solid 1px #000000;
+	border-left: Solid 1px #000000;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	x-border-spacing: 0px;
+	margin: 10px auto 0px;
+	text-align: Left;
+}
+table.iServerTable td {
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+table.iServerTable tr.t1Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	font-family: Verdana;
+}
+table.iServerTable tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	font-family: Verdana;
+}
+table.iServerTable tr.t1st td {
+	background-color: #c0c0c0;
+	color: #000000;
+	font-family: Verdana;
+	font-weight: bold;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	text-align: Center;
+}
+table.SimpleGridBlue {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.SimpleGridBlue td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.SimpleGridBlue tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.SimpleGridBlue tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+p.FAQ {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #408080;
+	text-indent: 0.25in;
+	margin-left: 0pt;
+	x-next-class: myNormal;
+	x-next-type: p;
+	font-weight: bold;
+}
+li.List {
+	margin-left: 0.25in;
+	list-style: decimal;
+}
+p.ImageP {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+li.NO1 {
+	list-style: decimal;
+	margin-left: 0.07in;
+}
+li.SymbolList2 {
+	list-style: circle;
+	margin-left: 1.5em;
+}
+p.Glossary {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #408080;
+	text-indent: 0.25in;
+	margin-left: 0pt;
+	x-next-class: myNormal;
+	x-next-type: p;
+	font-weight: bold;
+}
+li.blueglass_Para {
+	list-style: url(blue_glass.jpg);
+	margin-left: 2em;
+}
+.syntaxhighlighter {
+	background-color: #ffffff	 ! important ;
+}
+.syntaxhighlighter .line.alt1 {
+	background-color: #ffffff	 ! important ;
+}
+.syntaxhighlighter .line.alt2 {
+	background-color: #ffffff	 ! important ;
+}
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2 {
+	background-color: #c3defe	 ! important ;
+}
+.syntaxhighlighter .line.highlighted.number {
+	color: #ffffff	 ! important ;
+}
+.syntaxhighlighter table caption {
+	color: #000000	 ! important ;
+}
+.syntaxhighlighter .gutter {
+	color: #787878	 ! important ;
+}
+.syntaxhighlighter .gutter .line {
+	border-right: 3px solid #d4d0c8	 ! important ;
+}
+.syntaxhighlighter .gutter .line.highlighted {
+	background-color: #d4d0c8	 ! important ;
+	color: #ffffff	 ! important ;
+}
+.syntaxhighlighter.printing .line .content {
+	border: none	 ! important ;
+}
+.syntaxhighlighter.collapsed {
+	overflow: visible	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar {
+	color: #3f5fbf	 ! important ;
+	background: #ffffff	 ! important ;
+	border: 1px solid #d4d0c8	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar a {
+	color: #3f5fbf	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar a:hover {
+	color: #aa7700	 ! important ;
+}
+.syntaxhighlighter .toolbar {
+	color: #a0a0a0	 ! important ;
+	background: #d4d0c8	 ! important ;
+	border: none	 ! important ;
+	display:none;
+}
+.syntaxhighlighter .toolbar a {
+	color: #a0a0a0	 ! important ;
+}
+.syntaxhighlighter .toolbar a:hover {
+	color: #ff0000	 ! important ;
+}
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a {
+	color: #000000	 ! important ;
+}
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a {
+	color: #3f5fbf	 ! important ;
+}
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a {
+	color: #2a00ff	 ! important ;
+}
+.syntaxhighlighter .keyword {
+	color: #7f0055	 ! important ;
+}
+.syntaxhighlighter .preprocessor {
+	color: #646464	 ! important ;
+}
+.syntaxhighlighter .variable {
+	color: #aa7700	 ! important ;
+}
+.syntaxhighlighter .value {
+	color: #009900	 ! important ;
+}
+.syntaxhighlighter .functions {
+	color: #ff1493	 ! important ;
+}
+.syntaxhighlighter .constants {
+	color: #0066cc	 ! important ;
+}
+.syntaxhighlighter .script {
+	font-weight: bold	 ! important ;
+	color: #7f0055	 ! important ;
+	background-color: none	 ! important ;
+}
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a {
+	color: #808080	 ! important ;
+}
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a {
+	color: #ff1493	 ! important ;
+}
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a {
+	color: #ff0000	 ! important ;
+}
+.syntaxhighlighter .keyword {
+	font-weight: bold	 ! important ;
+}
+.syntaxhighlighter .xml .keyword {
+	color: #3f7f7f	 ! important ;
+	font-weight: normal	 ! important ;
+}
+.syntaxhighlighter .xml .color1,
+.syntaxhighlighter .xml .color1 a {
+	color: #7f007f	 ! important ;
+}
+.syntaxhighlighter .xml .string {
+	font-style: italic	 ! important ;
+	color: #2a00ff	 ! important ;
+}
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+	-moz-border-radius: 0 0 0 0	 ! important ;
+	-webkit-border-radius: 0 0 0 0	 ! important ;
+	background: none	 ! important ;
+	border: 0	 ! important ;
+	bottom: auto	 ! important ;
+	float: none	 ! important ;
+	height: auto	 ! important ;
+	left: auto	 ! important ;
+	line-height: 1.1em	 ! important ;
+	margin: 0	 ! important ;
+	outline: 0	 ! important ;
+	overflow: visible	 ! important ;
+	padding: 0	 ! important ;
+	position: static	 ! important ;
+	right: auto	 ! important ;
+	text-align: left	 ! important ;
+	top: auto	 ! important ;
+	vertical-align: baseline	 ! important ;
+	width: auto	 ! important ;
+	box-sizing: content-box	 ! important ;
+	font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, "monospace "	 ! important ;
+	font-weight: normal	 ! important ;
+	font-style: normal	 ! important ;
+	font-size: 1em	 ! important ;
+	min-height: inherit	 ! important ;
+	min-height: auto	 ! important ;
+}
+.syntaxhighlighter {
+	width: 100%	 ! important ;
+	margin: 1em 0 1em 0	 ! important ;
+	position: relative	 ! important ;
+	overflow: auto	 ! important ;
+	font-size: 1em	 ! important ;
+}
+.syntaxhighlighter.source {
+	overflow: hidden	 ! important ;
+}
+.syntaxhighlighter .bold {
+	font-weight: bold	 ! important ;
+}
+.syntaxhighlighter .italic {
+	font-style: italic	 ! important ;
+}
+.syntaxhighlighter .line {
+	white-space: pre	 ! important ;
+}
+.syntaxhighlighter table {
+	width: 100%	 ! important ;
+}
+.syntaxhighlighter table caption {
+	text-align: left	 ! important ;
+	padding: .5em 0 0.5em 1em	 ! important ;
+}
+.syntaxhighlighter table td.code {
+	width: 100%	 ! important ;
+}
+.syntaxhighlighter table td.code .container {
+	position: relative	 ! important ;
+}
+.syntaxhighlighter table td.code .container textarea {
+	box-sizing: border-box	 ! important ;
+	position: absolute	 ! important ;
+	left: 0	 ! important ;
+	top: 0	 ! important ;
+	width: 100%	 ! important ;
+	height: 100%	 ! important ;
+	border: none	 ! important ;
+	background: #ffffff	 ! important ;
+	padding-left: 1em	 ! important ;
+	overflow: hidden	 ! important ;
+	white-space: pre	 ! important ;
+}
+.syntaxhighlighter table td.gutter .line {
+	text-align: right	 ! important ;
+	padding: 0 0.5em 0 1em	 ! important ;
+}
+.syntaxhighlighter table td.code .line {
+	padding: 0 1em	 ! important ;
+}
+.syntaxhighlighter.nogutter td.code .container textarea,
+.syntaxhighlighter.nogutter td.code .line {
+	padding-left: 0em	 ! important ;
+}
+.syntaxhighlighter.show {
+	display: block	 ! important ;
+}
+.syntaxhighlighter.collapsed table {
+	display: none	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar {
+	padding: 0.1em 0.8em 0em 0.8em	 ! important ;
+	font-size: 1em	 ! important ;
+	position: static	 ! important ;
+	width: auto	 ! important ;
+	height: auto	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar span {
+	display: inline	 ! important ;
+	margin-right: 1em	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar span a {
+	padding: 0	 ! important ;
+	display: none	 ! important ;
+}
+.syntaxhighlighter.collapsed .toolbar span a.expandSource {
+	display: inline	 ! important ;
+}
+.syntaxhighlighter .toolbar {
+	position: absolute	 ! important ;
+	right: 1px	 ! important ;
+	top: 1px	 ! important ;
+	width: 11px	 ! important ;
+	height: 11px	 ! important ;
+	font-size: 10px	 ! important ;
+	z-index: 10	 ! important ;
+	display: none;
+}
+.syntaxhighlighter .toolbar span.title {
+	display: inline	 ! important ;
+}
+.syntaxhighlighter .toolbar a {
+	display: block	 ! important ;
+	text-align: center	 ! important ;
+	padding-top: 1px	 ! important ;
+	text-decoration: none;
+}
+.syntaxhighlighter .toolbar a.expandSource {
+	display: none	 ! important ;
+}
+.syntaxhighlighter.ie {
+	font-size: .9em	 ! important ;
+	padding: 1px 0 1px 0	 ! important ;
+}
+.syntaxhighlighter.ie .toolbar {
+	line-height: 8px	 ! important ;
+}
+.syntaxhighlighter.ie .toolbar a {
+	padding-top: 0px	 ! important ;
+}
+.syntaxhighlighter.printing .line.alt1 .content,
+.syntaxhighlighter.printing .line.alt2 .content,
+.syntaxhighlighter.printing .line.highlighted .number,
+.syntaxhighlighter.printing .line.highlighted.alt1 .content,
+.syntaxhighlighter.printing .line.highlighted.alt2 .content {
+	background: none	 ! important ;
+}
+.syntaxhighlighter.printing .line .number {
+	color: #bbbbbb	 ! important ;
+}
+.syntaxhighlighter.printing .line .content {
+	color: #000000	 ! important ;
+}
+.syntaxhighlighter.printing .toolbar {
+	display: none	 ! important ;
+}
+.syntaxhighlighter.printing a {
+	text-decoration: none;
+}
+.syntaxhighlighter.printing .plain,
+.syntaxhighlighter.printing .plain a {
+	color: #000000	 ! important ;
+}
+.syntaxhighlighter.printing .comments,
+.syntaxhighlighter.printing .comments a {
+	color: #008200	 ! important ;
+}
+.syntaxhighlighter.printing .string,
+.syntaxhighlighter.printing .string a {
+	color: #0000ff	 ! important ;
+}
+.syntaxhighlighter.printing .keyword {
+	color: #006699	 ! important ;
+	font-weight: bold	 ! important ;
+}
+.syntaxhighlighter.printing .preprocessor {
+	color: #808080	 ! important ;
+}
+.syntaxhighlighter.printing .variable {
+	color: #aa7700	 ! important ;
+}
+.syntaxhighlighter.printing .value {
+	color: #009900	 ! important ;
+}
+.syntaxhighlighter.printing .functions {
+	color: #ff1493	 ! important ;
+}
+.syntaxhighlighter.printing .constants {
+	color: #0066cc	 ! important ;
+}
+.syntaxhighlighter.printing .script {
+	font-weight: bold	 ! important ;
+}
+.syntaxhighlighter.printing .color1,
+.syntaxhighlighter.printing .color1 a {
+	color: #808080	 ! important ;
+}
+.syntaxhighlighter.printing .color2,
+.syntaxhighlighter.printing .color2 a {
+	color: #ff1493	 ! important ;
+}
+.syntaxhighlighter.printing .color3,
+.syntaxhighlighter.printing .color3 a {
+	color: #ff0000	 ! important ;
+}
+.syntaxhighlighter.printing .break,
+.syntaxhighlighter.printing .break a {
+	color: #000000	 ! important ;
+}
+.syntaxhighlighter SPAN.Code {
+	color: #000000;
+	color: #000000;
+	font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, "monospace "	 ! important ;
+	min-height: inherit	 ! important ;
+	font-size: 1em	 ! important ;
+	font-style: normal	 ! important ;
+	font-weight: normal	 ! important ;
+	box-sizing: content-box	 ! important ;
+	width: auto	 ! important ;
+	vertical-align: baseline	 ! important ;
+	top: auto	 ! important ;
+	text-align: left	 ! important ;
+	right: auto	 ! important ;
+	position: static	 ! important ;
+	padding: 0	 ! important ;
+	overflow: visible	 ! important ;
+	outline: 0	 ! important ;
+	margin: 0	 ! important ;
+	line-height: 1.1em	 ! important ;
+	left: auto	 ! important ;
+	height: auto	 ! important ;
+	float: none	 ! important ;
+	bottom: auto	 ! important ;
+	border: 0	 ! important ;
+	background: none	 ! important ;
+	-webkit-border-radius: 0 0 0 0	 ! important ;
+	-moz-border-radius: 0 0 0 0	 ! important ;
+}

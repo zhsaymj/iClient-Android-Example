@@ -1,0 +1,95 @@
+﻿/* Javadoc 样式表 */
+
+/* 在此处定义颜色、字体和其他样式属性以覆盖默认值 */
+
+/* 页面背景颜色 */
+body { 
+	background-color: #FFFFFF; 
+	font-size: 80%; 
+	font-family: Verdana, Arial, Helvetica, sans-serif, 宋体, 微软雅黑;
+	color: black;
+}
+
+/* 标题 */
+h1 { 
+	font-size: 145% 
+	font-weight: bolder;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+
+/* 表格颜色 */
+.TableHeadingColor     { background: #CEDFF0; } /* 蓝色 */
+.TableSubHeadingColor  { background: #CEDFF0; } /* 浅蓝色 */
+.TableRowColor         { background: #FFFFFF;} /* 白色 */
+
+/* 左侧的框架列表中使用的字体 */
+.FrameTitleFont   { font-size: 120%; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.FrameHeadingFont { font-size:  90%; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.FrameItemFont    { font-size:  90%; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+/* 导航栏字体和颜色 */
+.NavBarCell1    { background-color:#CEDFF0; } /* 蓝色 */
+.NavBarCell1Rev { background-color:#4375A8; } /* 深蓝色 */
+.NavBarFont1    { font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif, 宋体; color:#000000;}
+.NavBarFont1Rev { font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif, 宋体; color:#FFFFFF;}
+
+.NavBarCell2    { font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+.NavBarCell3    { font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif, 微软雅黑, 宋体;
+	color: #0A63A5; /* 绿色 */
+	text-decoration: none;
+}
+a:link {
+	color: #408080;
+}
+a:visited {
+	color: #408080;
+}
+a:hover {
+	color: #0909FF;
+   text-decoration: underline;
+}
+
+a:active {
+   text-decoration: underline;
+}
+
+h2 {
+   font-size: 140%;
+   font-weight: bold;
+   line-height: 200%;
+   margin-bottom: 0px;
+}
+
+h1 + h2 { margin-top: -5px }
+h2 + p { margin-top: -2px }
+
+h3 {
+   font-size: 110%;
+   font-weight: bolder;
+   line-height: 200%;
+   vertical-align: bottom;
+}
+
+h4 {
+   font-size: 90%;
+   font-weight: bold;
+   line-height: 200%;
+   vertical-align: bottom;
+}
+
+p {
+   text-align: justify;
+}
+
+code {
+   text-align: left;
+   font-size: 90%;
+}
+
+table td {
+	font-size: 95%;
+}

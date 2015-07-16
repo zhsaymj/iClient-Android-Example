@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+ <meta name="generator" content="Adobe RoboHelp 10" />
+<title>第四步 代码实现</title>
+<link rel="StyleSheet" href="../SuperMapiClientHelp.css" type="text/css" />
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushBash.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCpp.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCSharp.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCss.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushDelphi.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushDiff.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushGroovy.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJava.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJScript.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPhp.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPlain.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPython.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushRuby.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushScala.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushSql.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushVb.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushXml.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/ConfigiServer6R.js" language="JavaScript1.2">
+</script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("产品入门\n开发入门\n第四步 代码实现");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<script type="text/javascript" language="javascript">//<![CDATA[
+document.write("<p  style=\"text-align:left;\" class=\"breadcrumbs\">");
+AddMasterBreadcrumbs("../index.htm", "breadcrumbs", " &gt; ", "开始", "../ProductIntroduce/welcome.htm");
+document.write("<a class=\"breadcrumbs\" href=\"Android_getingstart.htm\">产品入门<\/a>  &gt;  <a class=\"breadcrumbs\" href=\"firststep_congig_eclipse.htm\">开发入门<\/a>  &gt;  第四步 代码实现<\/p>");
+//]]></script>
+<table width="100%">
+	<tr>
+		<td style="width: 90%; vertical-align: top;">
+  <h1>第四步 代码实现</h1></td>
+		<td style="width: 10%; vertical-align: top;">
+  <p style="text-align: center;"><a 
+		 href="mailto:iserver6r@supermap.com">发送反馈</a></p></td>
+	</tr>
+ </table>
+<hr align="center" />
+
+<ol style="list-style: decimal;">
+<li class="ListInParagraph">在AndroidManifest.xml中添加使用权限</li>
+</ol>
+<pre class="brush:xml">
+&lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;
+&lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/&gt;
+</pre>
+<ol start="2" style="list-style: decimal;">
+<li class="ListInParagraph">在AndroidManifest.xml中添加Android支持</li>
+</ol>
+<pre class="brush:xml">
+&lt;uses-sdk android:minSdkVersion="3" android:targetSdkVersion="8"/&gt;
+</pre>
+<ol start="3" style="list-style: decimal;">
+<li class="ListInParagraph">在布局xml（GettingStarted\res\layout\iclient_android_app.xml）中添加地图控件</li>
+</ol>
+<pre class="brush:xml">
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" &gt;
+   &lt;com.supermap.android.maps.MapView
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:enabled="true"/&gt;
+&lt;/RelativeLayout&gt;
+</pre>
+<ol start="4" style="list-style: decimal;">
+<li class="ListInParagraph">让创建的GettingStartedActivity（自动生成）继承Activity，并import相关类</li>
+</ol>
+<pre class="brush:java">
+package com.supermap.sample;
+import com.supermap.android.maps.LayerView;
+import com.supermap.android.maps.MapView;
+import android.app.Activity;
+import android.content.res.Configuration;
+import android.os.Bundle;
+public class GettingStartedActivity extends Activity {
+        // SuperMap iServer提供的地图采用固定地址传递
+        private static final String DEFAULT_URL = "http://192.168.120.41:8091/iserver/services/map-china400/rest/maps/China";
+        protected MapView mapView;
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+              setContentView(R.layout.iclient_android_app);
+        }
+        @Override
+        public void onConfigurationChanged(Configuration newConfig) {
+                super.onConfigurationChanged(newConfig);
+        }
+}
+</pre>
+<ol start="5" style="list-style: decimal;">
+<li class="ListInParagraph">初始化GettingStartedActivity，在onCreate中添加如下代码：</li>
+</ol>
+<pre class="brush:java">
+                //创建地图窗口
+                mapView = (MapView) this.findViewById(R.id.mapview);
+                //创建地图图层，并指向iServer提供的地图服务
+                LayerView layerView = new LayerView(this);
+                layerView.setURL(DEFAULT_URL);
+                //设置地图缩放
+                mapView.setBuiltInZoomControls(true);
+                //加载地图图层
+                mapView.addLayer(layerView);
+</pre>
+<h3>&#160;</h3>
+<h3>请参见</h3>
+<ul>
+<li class="referenceList"><a href="firststep_congig_eclipse.htm">第一步 配置Eclipse</a></li>
+<li class="referenceList"><a href="secondstep_buildproject.htm">第二步 创建工程</a></li>
+<li class="referenceList"><a href="thirdstep_add_lib_dependencies.htm">第三步 添加依赖库</a></li>
+<li class="referenceList"><a href="fifthstep_compileandrun.htm">第五步 编译并运行</a></li>
+</ul>
+<p class="myNormal">&#160;</p>
+ <p>&#160;</p>
+ <div style="width: 100%; position: relative;" id="footer">
+	<hr style="text-align: justify;" align="left" />
+	<div style="float: right; width: 490px;">
+		<p style="text-align: left; color: #999999; line-height: 15px; 
+			 font: '12px/1.6' arial helvetica sans-serif;">注：本文档完成日期为 2015 年 01 月 13 日 
+		 ，如果此前的文档（包括电子文档和印刷文档）与本文档不相符合，请以本文档为准。若本文档更新，则以更新后的文档为准。</p>
+	</div>
+	<div style="float: left; width: 400px;">
+		<p style="font-weight: normal;"><a href="http://www.supermap.com.cn" 
+											 style="font-weight: normal;">版权所有© 
+		 2000-2014 北京超图软件股份有限公司。保留所有权利。</a></p>
+	</div>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

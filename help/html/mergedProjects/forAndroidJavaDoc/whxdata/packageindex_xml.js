@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"#\" to=\"d\"/><ck fm=\"daltitud\" to=\"roundrectangl\"/><ck fm=\"rout\" to=\"下\"/><ck fm=\"不\" to=\"变\"/><ck fm=\"叠\" to=\"抛\"/><ck fm=\"护\" to=\"法\"/><ck fm=\"泛\" to=\"结\"/><ck fm=\"绘\" to=\"）\"/><ck fm=\"，\" to=\"；\"/></cki>";

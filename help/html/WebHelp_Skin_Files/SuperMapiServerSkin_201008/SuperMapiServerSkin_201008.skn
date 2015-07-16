@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqwebskin version="1.2">
+	<summary>
+		<skinname>SuperMapiServerSkin_201008</skinname>
+		<defaulttab>Contents</defaulttab>
+		<font>font-family:Arial font-size:8pt font-weight:normal font-style:normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal</font>
+		<color></color>
+	</summary>
+	<panesummary>
+		<![CDATA[
+<frameset rows="32,*" >
+<frame name="Custom Toolbar Pane" noresize="yes" scrolling="no" id="3" />
+<frameset cols="220,*" frameborder="1" borderspace="0" >
+<frameset rows="24,*" >
+<frame name="MiniBar Pane" marginwidth="-1" scrolling="no" id="6" />
+<frame name="Navigation Pane" id="2" />
+</frameset>
+<frame name="Topic Pane" frameborder="1" borderspace="1" bordercolor="Gray" marginwidth="-1" marginheight="-1" id="4" />
+</frameset>
+</frameset>
+]]>
+	</panesummary>
+	<frameset rows="32,*">
+		<frame name="Custom Toolbar Pane" noresize="yes" scrolling="no" id="3"/>
+		<frameset cols="220,*" frameborder="1" borderspace="0">
+			<frameset rows="24,*">
+				<frame name="MiniBar Pane" marginwidth="-1" scrolling="no" id="6"/>
+				<frame name="Navigation Pane" id="2"/>
+			</frameset>
+			<frame name="Topic Pane" frameborder="1" borderspace="1" bordercolor="Gray" marginwidth="-1" marginheight="-1" id="4"/>
+		</frameset>
+	</frameset>
+	<pane name="Custom Toolbar Pane">
+		<image>background:titlebackground.jpg?</image>
+		<color>background:#005279</color>
+		<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+		<btnselected>
+			<color>background:#639ace</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:White</font>
+		</btnselected>
+		<alignment>left</alignment>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-content" id="1">
+			<name>Contents</name>
+			<text></text>
+			<color></color>
+			<image>onload:content1.gif?onmouseover:content2.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:content2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-index" id="2">
+			<name>Index</name>
+			<text></text>
+			<color></color>
+			<image>onload:index1.gif?onmouseover:index2.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:index2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-search" id="3">
+			<name>Search</name>
+			<text></text>
+			<color></color>
+			<image>onload:search1.gif?onmouseover:search2.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:search2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-glossary" id="4">
+			<name>Glossary</name>
+			<text></text>
+			<color></color>
+			<image>onload:term1.gif?onmouseover:term2.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:term2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="Form Mode" type="built-in-form" id="6">
+			<name>Search Input</name>
+			<image></image>
+			<color></color>
+			<textbox width="20"/>
+			<title>
+				<text></text>
+			</title>
+			<button mode="graphic mode">
+				<image>onload:find.gif</image>
+			</button>
+		</toolbaritem>
+		<toolbaritem mode="Logo Mode" type="built-in-logo" id="7">
+			<name>About</name>
+			<image>selected:logo.gif?</image>
+			<author>SuperMap iServer</author>
+			<email>support@supermap.com</email>
+			<description></description>
+			<companyinformation>
+				<image>selected:supermap.png?</image>
+				<name>北京超图股份有限公司</name>
+				<copyright>版权所有© 2000-2010 北京超图软件股份有限公司。保留所有权利。</copyright>
+				<homepage>http://www.supermap.com.cn</homepage>
+			</companyinformation>
+			<titleinformation>
+				<image>selected:supermap.png?</image>
+			</titleinformation>
+		</toolbaritem>
+	</pane>
+	<pane name="MiniBar Pane">
+		<image>background:titlebackground.jpg?</image>
+		<color>background:#005279</color>
+		<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+		<btnselected>
+			<color>background:#639ace</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:White</font>
+		</btnselected>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-previous" id="8">
+			<name>Previous</name>
+			<text>::??DefaultWebSkinText??::</text>
+			<color></color>
+			<image>onload:left.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:left2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-next" id="9">
+			<name>Next</name>
+			<text>::??DefaultWebSkinText??::</text>
+			<color></color>
+			<image>onload:right.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:right2.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-synctoc" id="10">
+			<name>Sync TOC</name>
+			<text>::??DefaultWebSkinText??::</text>
+			<color></color>
+			<image></image>
+			<icontype>default</icontype>
+			<selected>
+				<color></color>
+				<image></image>
+				<icontype>default</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-hide" id="11">
+			<name>Hide</name>
+			<text>::??DefaultWebSkinText??::</text>
+			<color></color>
+			<image>onload:close.gif</image>
+			<icontype>customized</icontype>
+			<selected>
+				<color></color>
+				<image>onload:close.gif</image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>100</style>
+		</toolbaritem>
+		<toolbaritem mode="BtnWithIcon Mode" type="built-in-rolesel" id="12">
+			<name>ContentCategoryList</name>
+			<text></text>
+			<color></color>
+			<image></image>
+			<icontype>none</icontype>
+			<selected>
+				<color></color>
+				<image></image>
+				<icontype>customized</icontype>
+			</selected>
+			<style>256</style>
+		</toolbaritem>
+	</pane>
+	<pane name="Navigation Pane">
+		<image></image>
+		<color></color>
+		<label>
+			<image></image>
+			<color></color>
+		</label>
+		<subpane name="Contents">
+			<image>closedbook:folder_close.gif?remoteurl:link2.gif?background:background.jpg?page:topic.gif?openedbook:folder_open.gif?</image>
+			<color>background:White alink:#bfd7f8 hover-color:#008ed2</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+		</subpane>
+		<subpane name="Index">
+			<image>background:background.jpg?</image>
+			<color>background:White alink:#bfd7f8 hover-color:#008ed2</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+			<inputbox>
+				<image></image>
+				<color>background:#d9e6f3</color>
+				<textbox width="0"/>
+				<title>
+					<text>::??DefaultWebSkinText??::</text>
+					<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+				</title>
+				<button mode="none">
+				</button>
+			</inputbox>
+		</subpane>
+		<subpane name="Search">
+			<image>background:background.jpg?</image>
+			<color>background:White alink:#bfd7f8 hover-color:#008ed2</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+			<inputbox>
+				<image></image>
+				<color>background:#d9e6f3</color>
+				<textbox width="0"/>
+				<title>
+					<text>::??DefaultWebSkinText??::</text>
+					<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+				</title>
+				<button mode="graphic mode">
+					<image>onload:find.gif</image>
+				</button>
+			</inputbox>
+		</subpane>
+		<subpane name="Glossary">
+			<image>background:background.jpg?</image>
+			<color>background:White alink:#bfd7f8 hover-color:#008ed2</color>
+			<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+			<definitiontext>
+				<text>::??DefaultWebSkinText??::</text>
+				<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+				<color>background:#d9e6f3</color>
+				<image></image>
+			</definitiontext>
+			<definition>
+				<text>::??DefaultWebSkinText??::</text>
+				<color></color>
+				<image></image>
+			</definition>
+			<termtext>
+				<text>::??DefaultWebSkinText??::</text>
+				<font>font-family:Tahoma font-size:8pt font-weight:Normal font-style:Normal text-decoration:none font-sizeadjust:none font-stretch:normal font-variant:normal font-color:Black</font>
+				<color>background:#d9e6f3</color>
+				<image></image>
+			</termtext>
+			<term>
+				<text>::??DefaultWebSkinText??::</text>
+				<color></color>
+				<image></image>
+			</term>
+		</subpane>
+	</pane>
+	<pane name="Topic Pane">
+		<in-topic-navbar>
+			<alignment>none</alignment>
+		</in-topic-navbar>
+	</pane>
+	<mapfiles>
+	</mapfiles>
+</sqwebskin>

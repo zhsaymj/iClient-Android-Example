@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+ <meta name="generator" content="Adobe RoboHelp 10" />
+<title>第三方地图模块示范程序说明</title>
+<link rel="StyleSheet" href="../SuperMapiClientHelp.css" type="text/css" />
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushBash.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCpp.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCSharp.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushCss.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushDelphi.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushDiff.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushGroovy.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJava.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJScript.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPhp.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPlain.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPython.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushRuby.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushScala.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushSql.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushVb.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushXml.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="../syntaxhighlighter/scripts/ConfigiServer6R.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("开发指南\n示范程序说明\n第三方地图模块示范程序说明");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<script type="text/javascript" language="javascript">//<![CDATA[
+document.write("<p  style=\"text-align:left;\" class=\"breadcrumbs\">");
+AddMasterBreadcrumbs("../index.htm", "breadcrumbs", " &gt; ", "开始", "../ProductIntroduce/welcome.htm");
+document.write("<a class=\"breadcrumbs\" href=\"DevelopGuide.htm\">开发指南<\/a>  &gt;  <a class=\"breadcrumbs\" href=\"samplecodeUsage.htm\">示范程序说明<\/a>  &gt;  第三方地图模块示范程序说明<\/p>");
+//]]></script>
+<table width="100%">
+	<tr>
+		<td style="width: 90%; vertical-align: top;">
+  <h1>第三方地图模块示范程序说明</h1></td>
+		<td style="width: 10%; vertical-align: top;">
+  <p style="text-align: center;"><a 
+		 href="mailto:iserver6r@supermap.com">发送反馈</a></p></td>
+	</tr>
+ </table>
+<hr align="center" />
+
+<p class="myNormal">SuperMap iClient for Android提供的第三方地图模块示范代码位于【SuperMap 
+ iClient for Android 产品目录】\samples\iclient-android-thirdpartlayer，包含天地图、WMS地图等第三方图层。同级目录的iclient-android-thirdpartlayer.apk是可直接安装于Android设备的应用程序。运行示范程序后，列出功能项：</p>
+<ul>
+	<li class="SymbolList1">天地图</li>
+</ul>
+<p class="myNormal">将加载天地图图层，用户可进行浏览，支持缩放、平移等操作。</p>
+<p class="ImageP"><img src="img/tianditu.png" alt="" style="border: none;" 
+						 width="300" height="450" border="0" /></p>
+<ul style="list-style: disc;">
+	<li class="SymbolList1">WMS地图</li>
+</ul>
+<p class="myNormal">点击进入后，在弹出的对话框中输入服务地址（http://serverIP:8090/iserver/services）并确定，会弹出支持的WMS版本的地图服务列表，点击加载WMS图层进行浏览，以加载地图WMS1.1.1为例：</p>
+<p class="ImageP"><img src="img/wms.png" alt="" style="border: none;" width="300" 
+						 height="450" border="0" /></p>
+<ul style="list-style: disc;">
+	<li class="SymbolList1">WMTS地图</li>
+</ul>
+<p class="myNormal">点击进入后，在弹出的对话框中输入服务地址（http://serverIP:8090/iserver/services）并确定，会弹出支持的WMTS版本的地图服务列表，点击加载WMTS图层进行浏览，以加载地图WMTS1.0.0为例：</p>
+<p class="ImageP"><img src="img/wmts.png" alt="" style="border: none;" width="300" 
+						 height="450" border="0" /></p>
+<p>&#160;</p>
+ <p>&#160;</p>
+ <div style="width: 100%; position: relative;" id="footer">
+	<hr style="text-align: justify;" align="left" />
+	<div style="float: right; width: 490px;">
+		<p style="text-align: left; color: #999999; line-height: 15px; 
+			 font: '12px/1.6' arial helvetica sans-serif;">注：本文档完成日期为 2015 年 01 月 13 日 
+		 ，如果此前的文档（包括电子文档和印刷文档）与本文档不相符合，请以本文档为准。若本文档更新，则以更新后的文档为准。</p>
+	</div>
+	<div style="float: left; width: 400px;">
+		<p style="font-weight: normal;"><a href="http://www.supermap.com.cn" 
+											 style="font-weight: normal;">版权所有© 
+		 2000-2014 北京超图软件股份有限公司。保留所有权利。</a></p>
+	</div>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

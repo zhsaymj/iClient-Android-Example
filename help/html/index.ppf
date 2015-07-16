@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE polprojfile>
+<ppfml version="2.00" project="SuperMapiClientforAndroid">
+ <windowlist>
+  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow" skin="WebHelp_Skin_Files\SuperMapiServerSkin_201008\SuperMapiServerSkin_201008.skn">
+   <elements><element name="BrowseSequence" Present="yes" /><element name="SearchInput" Present="no" /><element name="SkinInstruction" value="whskin_ep_ins.ski" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+ </windowlist>
+ <contextmap>
+ </contextmap>
+ <topiclist defaulttopic="ProductIntroduce\welcome.htm">
+  <topic>GettingStarted\Android_getingstart.htm
+  </topic>
+  <topic>GettingStarted\PrepareDevelopmentEnvironment.htm
+  </topic>
+  <topic>GettingStarted\fifthstep_compileandrun.htm
+  </topic>
+  <topic>GettingStarted\firststep_congig_eclipse.htm
+  </topic>
+  <topic>GettingStarted\forthstep_codetoachieve.htm
+  </topic>
+  <topic>GettingStarted\secondstep_buildproject.htm
+  </topic>
+  <topic>GettingStarted\thirdstep_add_lib_dependencies.htm
+  </topic>
+  <topic>GettingStarted\usembtiles.htm
+  </topic>
+  <topic>ProductIntroduce\contents.htm
+  </topic>
+  <topic>ProductIntroduce\for7CIntroduce.htm
+  </topic>
+  <topic>ProductIntroduce\forAndroidIntroduce.htm
+  </topic>
+  <topic>ProductIntroduce\license.htm
+  </topic>
+  <topic>ProductIntroduce\welcome.htm
+  </topic>
+  <topic>DevelopGuide\DemoUsage.htm
+  </topic>
+  <topic>DevelopGuide\DevelopGuide.htm
+  </topic>
+  <topic>DevelopGuide\data_samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\dataedit.htm
+  </topic>
+  <topic>DevelopGuide\dataquery.htm
+  </topic>
+  <topic>DevelopGuide\mapQueryIntro.htm
+  </topic>
+  <topic>DevelopGuide\mapView.htm
+  </topic>
+  <topic>DevelopGuide\map_Scale.htm
+  </topic>
+  <topic>DevelopGuide\map_samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\map_thirdpartLayer.htm
+  </topic>
+  <topic>DevelopGuide\measure.htm
+  </topic>
+  <topic>DevelopGuide\networkanalyst.htm
+  </topic>
+  <topic>DevelopGuide\overlay.htm
+  </topic>
+  <topic>DevelopGuide\query.htm
+  </topic>
+  <topic>DevelopGuide\samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\spatialanalyst.htm
+  </topic>
+  <topic>DevelopGuide\spatialanalyst_samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\theme.htm
+  </topic>
+  <topic>DevelopGuide\theme_samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\trafficanalyst_samplecodeUsage.htm
+  </topic>
+  <topic>DevelopGuide\traffictransferanalyst.htm
+  </topic>
+  <topic>Appendix.htm
+  </topic>
+  <topic>Contactsupport.htm
+  </topic>
+  <topic>x.htm
+  </topic>
+  <topic>ProductIntroduce\what_s_new.htm
+  </topic>
+ </topiclist>
+ <projectincludes>
+  <project>forAndroidJavaDoc
+  </project>
+ </projectincludes>
+ <filenamemap>
+  <filenameentry moniker="wh_languagetype">
+   <filename>zh_CN
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="toc">
+   <filename>index.hhc
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="ndx">
+   <filename>index.hhk
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="nls">
+   <filename>index.nla
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="gls">
+   <filename>index.glo
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="sym">
+   <filename>index.syn
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="keywordinfo">
+   <filename>SearchOptions.xml
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="hiderankcolumn">
+   <filename>0
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="enabletotalnumberofsearchresults">
+   <filename>1
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="giveandsearch">
+   <filename>0
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="enableandsearch">
+   <filename>0
+   </filename>
+  </filenameentry>
+ </filenamemap>
+</ppfml>
